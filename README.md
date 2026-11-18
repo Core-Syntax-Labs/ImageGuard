@@ -7,7 +7,7 @@ A proposta utiliza o conjunto de dados **MNIST**, composto por imagens de dígit
 
 ---
 
-## 🎯 1. Objetivo
+## 1. Objetivo
 
 Desenvolver um protótipo capaz de comprimir e reconstruir imagens utilizando uma arquitetura Autoencoder, explorando o erro de reconstrução como mecanismo para identificação de anomalias.
 
@@ -24,7 +24,7 @@ O projeto busca demonstrar como uma rede neural pode aprender a representar dete
 
 ---
 
-## 🔍 2. Problema proposto
+## 2. Problema proposto
 
 Como identificar imagens que apresentam características diferentes dos padrões aprendidos por uma rede neural?
 
@@ -52,7 +52,7 @@ O modelo será treinado exclusivamente com imagens correspondentes ao dígito **
 
 ---
 
-## 📊 3. Conjunto de dados
+## 3. Conjunto de dados
 
 **MNIST — Modified National Institute of Standards and Technology Database**
 
@@ -76,7 +76,7 @@ O conjunto também poderá ser carregado diretamente pela biblioteca Keras, faci
 
 ---
 
-## 🧩 4. Metodologia
+## 4. Metodologia
 
 O desenvolvimento será dividido em cinco etapas principais.
 
@@ -142,7 +142,7 @@ O limiar será definido a partir dos dados de validação, evitando utilizar o c
 
 ---
 
-## 📈 5. Avaliação dos resultados
+## 5. Avaliação dos resultados
 
 A avaliação considerará tanto a capacidade de reconstrução quanto a identificação de anomalias.
 
@@ -163,7 +163,7 @@ Também serão apresentados exemplos visuais de reconstruções corretas e incor
 
 ---
 
-## 🛠️ 6. Tecnologias utilizadas
+## 6. Tecnologias utilizadas
 
 | Tecnologia | Aplicação |
 |---|---|
@@ -177,7 +177,7 @@ Também serão apresentados exemplos visuais de reconstruções corretas e incor
 
 ---
 
-## 📁 7. Organização do projeto
+## 7. Organização do projeto
 
 ```text
 ImageGuard/
@@ -200,7 +200,7 @@ A organização poderá ser expandida conforme o desenvolvimento do projeto.
 
 ---
 
-## ⚠️ 8. Limitações e considerações
+## 8. Limitações e considerações
 
 O projeto apresenta um cenário experimental controlado, no qual a definição de normalidade está restrita a uma única classe de imagens.
 
@@ -216,35 +216,35 @@ Os resultados deverão ser interpretados considerando essas limitações.
 
 ---
 
-## 🚀 9. Execução
+## 9. Execução
 
 O projeto será desenvolvido no Google Colab.
 
 Para executar:
 
-1. Acesse o notebook disponibilizado no diretório `notebooks/`.
+1. Acesse o notebook disponibilizado no diretório.
 2. Abra o arquivo no Google Colab.
 3. Execute as células sequencialmente.
 4. Aguarde o carregamento dos dados e o treinamento do modelo.
 5. Observe as reconstruções e os resultados da detecção de anomalias.
 
-As dependências necessárias estarão documentadas em `requirements.txt`.
+As dependências necessárias estarão documentadas em `requirements.txt`(Arquivo que vamos usar para definir requerimentos).
 
 ---
 
-## 👥 10. Integrantes
+## 10. Integrantes
 
 | Integrante | Responsabilidade |
 |---|---|
-| A definir | Desenvolvimento e experimentação |
-| A definir | Preparação e análise dos dados |
-| A definir | Avaliação e documentação |
-
-*As responsabilidades poderão ser atualizadas durante o desenvolvimento.*
+| Samuel | Desenvolvimento e experimentação |
+| Rafael | Desenvolvimento e experimentação |
+| Alanderson | Preparação e análise dos dados |
+| Daniel | Preparação e análise dos dados |
+| Ryan | Avaliação e documentação |
 
 ---
 
-## 📚 11. Referências
+## 11. Referências
 
 - KINGMA, D. P.; WELLING, M. Auto-Encoding Variational Bayes. 2013. [arXiv:1312.6114](https://arxiv.org/abs/1312.6114).
 - HINTON, G. E.; SALAKHUTDINOV, R. R. Reducing the Dimensionality of Data with Neural Networks. Science, 2006. [DOI: 10.1126/science.1127647](https://doi.org/10.1126/science.1127647).
