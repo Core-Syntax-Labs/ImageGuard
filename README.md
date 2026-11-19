@@ -223,7 +223,7 @@ O projeto será desenvolvido no Google Colab.
 Para executar:
 
 1. Acesse o notebook disponibilizado no diretório.
-2. Abra o arquivo no Google Colab.
+2. Abra o arquivo no Google Colab https://colab.research.google.com/drive/1GjjG_2dj-QKqN1pIYYWiH0ECx0UKK-rr?usp=sharing.
 3. Execute as células sequencialmente.
 4. Aguarde o carregamento dos dados e o treinamento do modelo.
 5. Observe as reconstruções e os resultados da detecção de anomalias.
